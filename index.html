@@ -1,41 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-	<link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentación</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-	<header class="parallax-complet">
-		<div class="text-hero">
-			<h2>Actuaria Conceptos básicos</h2>
-		</div>
-	</header>
-	<section class="center space">
-		<h2>Qué es una Prima</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium hic itaque incidunt similique, corporis laboriosam error esse unde nulla blanditiis, est? Pariatur, consectetur ex ullam tenetur eaque, debitis! Doloremque veritatis, natus in pariatur autem totam cum voluptatibus laborum, maxime. Quibusdam vitae ratione quas consectetur itaque vero rem saepe quisquam in, enim dolore voluptatem quasi labore sint incidunt doloribus velit error porro assumenda est dicta iste eius consequatur voluptas! Cumque, explicabo, dicta mollitia molestiae iure veniam unde, sit quia dolores nobis, eum quod vitae nihil? Tenetur eligendi, illum aut ab mollitia inventore soluta veniam explicabo! Nobis reiciendis quod ipsum, rem veritatis sunt illum iste vel blanditiis ut. Tempore omnis, molestiae quaerat. Qui, asperiores, quisquam, praesentium sunt enim eveniet sit quo deserunt, excepturi neque tenetur facere quam. Esse excepturi temporibus est harum consectetur alias neque quos quae dolorem soluta minima iure quo necessitatibus quas quidem, aliquid doloribus repudiandae laudantium, quis totam dicta?</p>
-	</section>
-	<section class="parallax-little">
-		<h2>Prima de riesgo</h2>
-	</section>
-	<section class="texto">
-		<h2>Disfruta el elemento Parallax</h2>
-	</section>
-	<section class="center space">
-		<h2>Parallax Demo</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium hic itaque incidunt similique, corporis laboriosam error esse unde nulla blanditiis, est? Pariatur, consectetur ex ullam tenetur eaque, debitis! Doloremque veritatis, natus in pariatur autem totam cum voluptatibus laborum, maxime. Quibusdam vitae ratione quas consectetur itaque vero rem saepe quisquam in, enim dolore voluptatem quasi labore sint incidunt doloribus velit error porro assumenda est dicta iste eius consequatur voluptas! Cumque, explicabo, dicta mollitia molestiae iure veniam unde, sit quia dolores nobis, eum quod vitae nihil? Tenetur eligendi, illum aut ab mollitia inventore soluta veniam explicabo! Nobis reiciendis quod ipsum, rem veritatis sunt illum iste vel blanditiis ut. Tempore omnis, molestiae quaerat. Qui, asperiores, quisquam, praesentium sunt enim eveniet sit quo deserunt, excepturi neque tenetur facere quam. Esse excepturi temporibus est harum consectetur alias neque quos quae dolorem soluta minima iure quo necessitatibus quas quidem, aliquid doloribus repudiandae laudantium, quis totam dicta?</p>
-	</section>
-	<section class="parallax-little">
-		<h2>Menos altura</h2>
-	</section>
-	<section class="texto">
-		<h2>Disfruta el elemento Parallax</h2>
-	</section>
-	<section class="parallax-complet">
-		<div class="text-hero">
-			<h2>Desplaza hacia abajo</h2>
-		</div>
-	</section>
+    
+    <header class="header" id="inicio">
+        <img class="hamburguer" src="img/hamburguesa.svg" alt="">
+        <nav class="menu-navegacion">
+                <a href="#inicio">Inicio</a>
+                <a href="#servicio">Temás Difíciles en las Matemáticas</a>
+                <a href="#galeria">Integrantes del equipo</a>
+                <a href="#expertos">Matemáticas ¿ciencia o herramienta?</a>
+                <a href="#footer">Sobre el equipo</a>
+        </nav>
+        <div class="contenedor head">
+            <h1 class="titulo" style='color: #9b1fe8;'>Cálculo Integral y Diferencial II</h1>
+            <p class="copy" style='color: #9b1fe8;'>Equipo 6</p>
+        </div>
+        
+    </header>
+    <main>
+        <section class="services contenedor" id="servicio">
+            <h2 class="subtitulo">Temas Difíciles en Matemáticas</h2>
+            <div class="contenedor-servicio">
+                <img src="img/fur.jpeg" alt="">
+                <div class="checklist-servicio">
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">1</span>Primaria</h3>
+                        <p> Operaciones con fracciones.</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">2</span>Secundaria</h3>
+                        <p> Trigonometría, Álgebra.</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">3</span>Bachiller</h3>
+                        <p> Cálculo diferencial e integral</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">4</span>Superior</h3>
+                        <p> Definición de límite.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery" id="galeria">
+            <div class="contenedor">
+                <h2 class="subtitulo">Integrantes del equipo</h2>
+                <div class="contenedor-galeria">
+                    <img src="img/uno.jpg" class="img-galeria" alt="Hola">
+                    <img src="img/dos.jpg" class="img-galeria" alt="">
+                    <img src="img/tres.jpg" class="img-galeria" alt="">
+                    <img src="img/cuatro.jpg" class="img-galeria" alt="">
+                    <img src="img/cinco.jpg" class="img-galeria" alt="">
+                    <img src="img/seis.jpg" class="img-galeria" alt="">
+                </div>
+            </div>
+        </section>
+        <div class="imagen-light">
+            <img src="img/close.svg" alt="" class="close">
+            <img src="" alt="" class="agregar-imagen">
+        </div>
+        <section class="contenedor" id="expertos">
+            <h2 class="subtitulo">¿Las Matemáticas son una ciencia o una herramienta?</h2>
+            <section class="experts">
+                <div class="cont-expert">
+                    <img src="img/fx.png">
+                    <h3 class="n-expert"></h3>
+                </div>
+                <div class="cont-expert">
+                    <!-- <img src="img/search_engine.svg" alt=""> -->
+                    Consideramos que las matemáticas son una ciencia que sirve como herramienta para ayudar a otras ciencias, ya que a partir de argumentos lógicos y bien razonados se construyen teoremas e hipótesis demostrables. Estos enunciados generales pueden tener aplicaciones que podemos comprobar en el mundo físico, de ahí que podría ser más reconocida comúnmente como una herramienta por su uso en la resolución de problemas de la vida diaria
+                    <h3 class="n-expert">Conclusión</h3>
+                </div>
+                <div class="cont-expert">
+                    <img src="img/math.png" alt="">
+                    <h3 class="n-expert"></h3>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="contenedor footer-content">
+                <div class="contact-us">
+                    <h2 class="brand">Facultad de Ciencias</h2>
+                    <p>Universidad Nacional Autónoma de México</p>
+                </div>
+                <div class="social-media">
+                    <a href="https://www.youtube.com/watch?v=8NWa--MU5WM&ab_channel=LaM.O.D.A" target='_blank' class="social-media-icon">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+                    <a href="https://www.youtube.com/watch?v=8NWa--MU5WM&ab_channel=LaM.O.D.A" target='_blank' class="social-media-icon">
+                        <i class='bx bxl-twitter' ></i>
+                    </a>
+                    <a href="https://www.youtube.com/watch?v=8NWa--MU5WM&ab_channel=LaM.O.D.A" target='_blank' class="social-media-icon">
+                        <i class='bx bxl-instagram' ></i>
+                    </a>
+                </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/lightbox.js"></script>
 </body>
 </html>
